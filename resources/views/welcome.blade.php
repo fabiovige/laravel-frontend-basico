@@ -10,9 +10,24 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body class="min-h-screen w-full flex items-center">
-    <div class="w-full bg-blue-base p-4">
-        Hello world!
+<body class="min-h-screen w-full" >
+<h1>Alpine</h1>
+    <h2>x-data</h2>
+    <div x-data="{ open: false }">
+        <button @click="open = ! open">Toggle Content</button>
+
+        <div x-show="open">
+            Content...
+        </div>
+
+        <div class="flex flex-col " x-data="{ visible: true, hasShadow:false}">
+            <div x-show="true" class="w-[180px] h-[120] my-2 bg-blue-100 shadow-regular rounded-md">a</div>
+            <div class="w-[180px] h-[120] my-2 bg-blue-300 shadow-medium rounded-md">b</div>
+            <div
+                class="w-[180px] h-[120] my-2 bg-blue-600 shadow-badge rounded-md"
+                x-bind:class="{'w-[180px] h-[120] my-2 bg-blue-300 shadow-medium rounded-md':visible, 'shadow-hard': hasShadow}"
+            >c</div>
+        </div>
     </div>
 </body>
 </html>
