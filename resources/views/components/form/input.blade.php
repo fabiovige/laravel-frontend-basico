@@ -17,7 +17,7 @@
                 'bg-gray-200 border border-solid border-gray-400 px-3 active:border-blue-500 disabled:border-gray-500 disabled:bg-gray-500 rounded',
                 'py-3' => $size === 'large',
                 'py-2' => $size === 'medium',
-                'py-0.5' => $size === 'small',
+                'py-1' => $size === 'small',
                 'pl-12' => !empty($icon) && $iconPosition === 'left',
                 'pr-12' => !empty($icon) && $iconPosition === 'right',
             ]) />
