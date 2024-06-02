@@ -9,7 +9,7 @@
 
 ## Treinamento de Laravel - Frontend básico 
 
-Treinamento realizado pelo curdo de Academia Laravel na [BeerAndCode](https://beerandcode.com.br/aplicacao-formacao-laravel-metodo-malt/). Nesse módulo aprendi a trabalhar com frontend dentro do laravel utilizando blade, tailwindcss e alpinejs. Ao final do curso construímos um template do zero, criamos componentes e muito mais. Foi um aprendizado que agregou muito na minha carreira.
+Treinamento realizado pelo curso de Academia Laravel na [BeerAndCode](https://beerandcode.com.br/aplicacao-formacao-laravel-metodo-malt/). Nesse módulo aprendi a trabalhar com frontend dentro do laravel utilizando blade, tailwindcss e alpinejs. Ao final do curso construímos um template do zero, criamos componentes e muito mais. Foi um aprendizado que agregou muito na minha carreira.
 
 Para quem estiver interessado, segue mais informações.
 
